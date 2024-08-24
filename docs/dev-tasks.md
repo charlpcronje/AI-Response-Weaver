@@ -1,8 +1,6 @@
-### **AI Response Weaver Technical Specification**
+# AI Response Weaver Technical Specification
 
----
-
-#### **1. Project Setup**
+## **1. Project Setup**
 
 1.1 **Initialize Git Repository**  
 - Create a new Git repository for version control.
@@ -25,7 +23,7 @@
 
 ---
 
-#### **2. JSON Configuration for File Types**
+## **2. JSON Configuration for File Types**
 
 2.1 **Define JSON Structure for File Types**  
 - Create a JSON file (`config.json`) that defines:
@@ -39,7 +37,7 @@
 
 ---
 
-#### **3. Monitor and Parse File Changes**
+## **3. Monitor and Parse File Changes**
 
 3.1 **Monitor Specific File for Changes**  
 - Implement a command-line argument to specify a file to monitor.
@@ -52,7 +50,7 @@
 
 ---
 
-#### **4. File Creation and Directory Management**
+## **4. File Creation and Directory Management**
 
 4.1 **Create File Paths**  
 - Check if the relative file path exists; if not, create the directory structure using `os.makedirs()`.
@@ -69,7 +67,7 @@
 
 ---
 
-#### **5. Log File Management**
+## **5. Log File Management**
 
 5.1 **Create Log Folder for Markdown Files**  
 - Implement a command-line argument to specify a log folder.
@@ -83,7 +81,7 @@
 
 ---
 
-#### **6. Response Validation and Error Logging**
+## **6. Response Validation and Error Logging**
 
 6.1 **Validate Response Structure**  
 - Implement a validation step before processing each response.
@@ -96,7 +94,7 @@
 
 ---
 
-#### **7. CLI and .weaver Configuration**
+## **7. CLI and .weaver Configuration**
 
 7.1 **Run the App with Arguments**  
 - Implement a command-line interface (CLI) to run the app with arguments:
@@ -110,7 +108,7 @@
 
 ---
 
-#### **8. Application Deployment**
+## **8. Application Deployment**
 
 8.1 **Make the App Executable from Anywhere**  
 - Add the app to the system’s PATH by creating a symlink or adding a shell script to `/usr/local/bin/` that points to the app’s main script.
@@ -121,7 +119,7 @@
 
 ---
 
-#### **9. Testing and Validation**
+## **9. Testing and Validation**
 
 9.1 **Write Unit Tests**  
 - Create unit tests for each functionality (e.g., file monitoring, parsing, file creation, Git operations).
@@ -130,7 +128,3 @@
 9.2 **Run Tests**  
 - Automate testing with a continuous integration tool like GitHub Actions or Jenkins.
 - Verify that all tests pass before deployment.
-
----
-
-This technical specification outlines every detail needed to build **AI Response Weaver** with all the functionalities discussed. It is structured to ensure that each component can be developed and tested within manageable time frames.

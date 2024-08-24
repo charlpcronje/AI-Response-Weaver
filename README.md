@@ -1,16 +1,12 @@
-### **README.md**
+# AI Response Weaver
 
----
-
-# **AI Response Weaver**
-
-## **Description**
+## Description
 
 **AI Response Weaver** is a powerful Python-based application designed to streamline the process of converting AI-generated code blocks into actual files. It allows users to specify a file that contains AI responses, monitors that file for changes, and automatically creates or updates files based on the content. The app intelligently handles various programming languages by using a configurable JSON file to parse file names and relative paths, ensuring that the correct files are created or merged seamlessly. 
 
 AI Response Weaver is ideal for developers working with AI-generated content who want a hands-free, automated approach to integrating code into their projects without manually copying, pasting, and organizing files. With Git integration, error logging, and validation, AI Response Weaver offers a comprehensive solution for managing AI-generated code with precision and efficiency.
 
-## **Features**
+## Features
 
 - **Automated File Creation:** Converts code blocks in a specified file into actual files, creating the necessary directory structure if it doesn’t exist.
 - **File Monitoring:** Continuously monitors a specified file for changes and processes new content automatically.
@@ -19,12 +15,12 @@ AI Response Weaver is ideal for developers working with AI-generated content who
 - **Configurable File Type Parsing:** Uses a JSON configuration file to handle various file types and comment syntax for parsing file names and paths.
 - **Markdown Logging:** Saves each processed response as a markdown file with a timestamped filename for easy reference.
 
-## **Installation**
+## Installation
 
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/AI Response Weaver.git
+   git clone https://github.com/charlpcronje/AI-Response-WeaverAI Response Weaver.git
    cd AI Response Weaver
    ```
 
@@ -53,7 +49,7 @@ AI Response Weaver is ideal for developers working with AI-generated content who
 
    - Modify the `config/config.json` file to define file types, extensions, and comment syntax as per your requirements.
 
-## **Usage**
+## Usage
 
 1. **Running the App:**
 
@@ -75,7 +71,7 @@ AI Response Weaver is ideal for developers working with AI-generated content who
    - The app uses a `.weaver` file to remember the last monitored file and log folder. If no `.weaver` file is present, you’ll be prompted to provide the necessary details.
    - The JSON configuration file can be customized to support additional file types or comment syntax.
 
-## **Roadmap**
+## Roadmap
 
 - **Multi-File Monitoring:** Support for monitoring multiple files simultaneously.
 - **Notification System:** Integration with desktop notifications or messaging platforms to alert users of new processed responses.
@@ -83,21 +79,6 @@ AI Response Weaver is ideal for developers working with AI-generated content who
 - **Customizable Templates:** Allow users to define templates for markdown logs.
 - **Web Interface:** Develop a web-based interface for managing configurations, logs, and monitoring status.
 
-## **Contributing**
+## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
-
-## **License**
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
----
-
-### **Development Prompt**
-
-Here’s a suggested prompt to get started with the development of AI Response Weaver:
-
-```plaintext
-
-
-This README and prompt should provide a solid foundation for the development and future expansion of **AI Response Weaver**.
