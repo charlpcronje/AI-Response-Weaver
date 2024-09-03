@@ -1,0 +1,102 @@
+{
+  "file_types": {
+    "web": {
+      "extensions": [
+        ".html",
+        ".htm",
+        ".css",
+        ".scss",
+        ".sass",
+        ".less",
+        ".styl",
+        ".js",
+        ".jsx",
+        ".ts",
+        ".tsx",
+        ".vue",
+        ".svelte",
+        ".pug",
+        ".jade",
+        ".ejs",
+        ".haml",
+        ".twig",
+        ".njk",
+        ".marko",
+        ".mustache",
+        ".handlebars",
+        ".dust",
+        ".wxml",
+        ".wxss"
+      ],
+      "regex": "^\\s*(?://|#|<!--)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*(?:-->)?$",
+      "remove_first_line": false
+    },
+    "data": {
+      "extensions": [
+        ".json",
+        ".json5",
+        ".yaml",
+        ".yml",
+        ".xml",
+        ".ini",
+        ".env",
+        ".toml"
+      ],
+      "regex": "^\\s*(?://|#|<!--)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*(?:-->)?$",
+      "remove_first_line": false
+    },
+    "config": {
+      "extensions": [
+        ".editorconfig",
+        ".prettierrc",
+        ".stylelintrc",
+        ".eslintrc",
+        ".babelrc",
+        ".tsconfig.json",
+        ".jsconfig.json",
+        ".csslintrc",
+        ".npmrc",
+        ".yarnrc",
+        ".pacmanrc",
+        ".dockerfile",
+        ".dockerignore",
+        ".travis.yml",
+        ".circleci.yml",
+        ".appveyor.yml",
+        ".vimrc",
+        ".gvimrc",
+        ".zshrc",
+        ".bashrc",
+        ".inputrc",
+        ".kshrc",
+        ".tshrc"
+      ],
+      "regex": "^\\s*(?://|#|<!--)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*(?:-->)?$",
+      "remove_first_line": false
+    },
+    "map": {
+      "extensions": [
+        ".css.map",
+        ".js.map",
+        ".html.map"
+      ],
+      "regex": "^\\s*(?://|#|<!--)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*(?:-->)?$",
+      "remove_first_line": false
+    },
+    "server": {
+      "extensions": [
+        ".php",
+        ".php5",
+        ".php4",
+        ".php3",
+        ".phtml",
+        ".py",
+        ".pyc",
+        ".pyo",
+        "python", ...
+      ],
+      "regex": "^\\s*(?://|#|<!--)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*(?:-->)?$",
+      "remove_first_line": false
+    }
+  }
+}

@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: ai-response-weaver
+Version: 0.1.0
+Requires-Dist: watchdog==2.1.9
+Requires-Dist: gitpython==3.1.30
+Requires-Dist: python-dotenv<2.0.0,>=1.0.0
+Requires-Dist: chainlit==1.0.0

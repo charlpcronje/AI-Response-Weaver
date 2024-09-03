@@ -1,0 +1,335 @@
+{
+  "file_types": {
+    "web": {
+      "extensions": [
+        ".html",
+        ".htm",
+        ".css",
+        ".scss",
+        ".sass",
+        ".less",
+        ".styl",
+        ".js",
+        ".jsx",
+        ".ts",
+        ".tsx",
+        ".vue",
+        ".svelte",
+        ".pug",
+        ".jade",
+        ".ejs",
+        ".haml",
+        ".twig",
+        ".njk",
+        ".marko",
+        ".mustache",
+        ".handlebars",
+        ".dust",
+        ".wxml",
+        ".wxss"
+      ],
+      "comment_styles": [
+        "html",
+        "css",
+        "js"
+      ]
+    },
+    "data": {
+      "extensions": [
+        ".json",
+        ".json5",
+        ".yaml",
+        ".yml",
+        ".xml",
+        ".ini",
+        ".env",
+        ".toml"
+      ],
+      "comment_styles": [
+        "hash",
+        "xml"
+      ]
+    },
+    "config": {
+      "extensions": [
+        ".editorconfig",
+        ".prettierrc",
+        ".stylelintrc",
+        ".eslintrc",
+        ".babelrc",
+        ".tsconfig.json",
+        ".jsconfig.json",
+        ".csslintrc",
+        ".npmrc",
+        ".yarnrc",
+        ".pacmanrc",
+        ".dockerfile",
+        ".dockerignore",
+        ".travis.yml",
+        ".circleci.yml",
+        ".appveyor.yml",
+        ".vimrc",
+        ".gvimrc",
+        ".zshrc",
+        ".bashrc",
+        ".inputrc",
+        ".kshrc",
+        ".tshrc"
+      ],
+      "comment_styles": [
+        "hash",
+        "doubleslash"
+      ]
+    },
+    "map": {
+      "extensions": [
+        ".css.map",
+        ".js.map",
+        ".html.map"
+      ],
+      "comment_styles": [
+        "doubleslash"
+      ]
+    },
+    "server": {
+      "extensions": [
+        ".php",
+        ".php5",
+        ".php4",
+        ".php3",
+        ".phtml",
+        ".py",
+        ".pyc",
+        ".pyo",
+        ".rb",
+        ".rhtml",
+        ".rake",
+        ".pl",
+        ".cgi",
+        ".pm",
+        ".psgi",
+        ".pyx",
+        ".pxd",
+        ".pyi",
+        ".pyw",
+        ".groovy",
+        ".grails",
+        ".jsp",
+        ".jspf",
+        ".java",
+        ".class",
+        ".war",
+        ".jnlp",
+        ".scala",
+        ".sbt",
+        ".go",
+        ".swift",
+        ".swiftmodule",
+        ".cs",
+        ".csproj",
+        ".vb",
+        ".vbproj",
+        ".fs",
+        ".fsproj",
+        ".fsi",
+        ".fsx",
+        ".fsscript",
+        ".erl",
+        ".ex",
+        ".exs",
+        ".hrl",
+        ".hs",
+        ".hi",
+        ".lhs",
+        ".ml",
+        ".mli",
+        ".mly",
+        ".mll",
+        ".cfm",
+        ".cfc",
+        ".asp",
+        ".aspx",
+        ".ascx",
+        ".cshtml",
+        ".vbhtml",
+        ".jinja"
+      ],
+      "comment_styles": [
+        "hash",
+        "doubleslash",
+        "php"
+      ]
+    },
+    "script": {
+      "extensions": [
+        ".sh",
+        ".bash",
+        ".zsh",
+        ".ksh"
+      ],
+      "comment_styles": [
+        "hash"
+      ]
+    },
+    "compiled": {
+      "extensions": [
+        ".c",
+        ".cpp",
+        ".cxx",
+        ".h",
+        ".hh",
+        ".hxx",
+        ".cu",
+        ".cuh"
+      ],
+      "comment_styles": [
+        "doubleslash",
+        "multiline"
+      ]
+    },
+    "build": {
+      "extensions": [
+        ".cmake",
+        ".makefile",
+        ".mk",
+        ".gradle",
+        ".build",
+        ".cabal",
+        ".gemspec",
+        ".lock"
+      ],
+      "comment_styles": [
+        "hash",
+        "doubleslash"
+      ]
+    },
+    "database": {
+      "extensions": [
+        ".sql",
+        ".db",
+        ".sqlite",
+        ".sqlite3",
+        ".mdb",
+        ".accdb"
+      ],
+      "comment_styles": [
+        "doublehyphen",
+        "hash"
+      ]
+    },
+    "task": {
+      "extensions": [
+        ".rakefile",
+        ".gulpfile",
+        ".rollup",
+        ".parcelrc",
+        ".webpack"
+      ],
+      "comment_styles": [
+        "hash",
+        "doubleslash"
+      ]
+    },
+    "cloud": {
+      "extensions": [
+        ".aws",
+        ".gcloud",
+        ".tf",
+        ".hcl"
+      ],
+      "comment_styles": [
+        "hash",
+        "doubleslash"
+      ]
+    },
+    "git": {
+      "extensions": [
+        ".gitignore",
+        ".gitattributes"
+      ],
+      "comment_styles": [
+        "hash"
+      ]
+    },
+    "doc": {
+      "extensions": [
+        ".readme",
+        ".license",
+        ".changelog",
+        ".contributing",
+        ".md",
+        ".markdown",
+        ".rst",
+        ".txt"
+      ],
+      "comment_styles": [
+        "hash"
+      ]
+    },
+    "temp": {
+      "extensions": [
+        ".bak",
+        ".backup",
+        ".old",
+        ".tmp",
+        ".temp",
+        ".cache",
+        ".swp"
+      ],
+      "comment_styles": [
+        "hash",
+        "doubleslash"
+      ]
+    },
+    "subtitle": {
+      "extensions": [
+        ".srt",
+        ".sub",
+        ".idx",
+        ".ass",
+        ".vtt",
+        ".lrc",
+        ".sup",
+        ".cc",
+        ".scc",
+        ".ssa",
+        ".stl"
+      ],
+      "comment_styles": [
+        "hash"
+      ]
+    }
+  },
+  "comment_styles": {
+    "hash": [
+      "#"
+    ],
+    "doubleslash": [
+      "//"
+    ],
+    "html": [
+      "<!--"
+    ],
+    "css": [
+      "/*"
+    ],
+    "js": [
+      "//",
+      "/*"
+    ],
+    "php": [
+      "//",
+      "#",
+      "/*"
+    ],
+    "xml": [
+      "<!--"
+    ],
+    "doublehyphen": [
+      "--"
+    ],
+    "multiline": [
+      "/*"
+    ]
+  }
+}

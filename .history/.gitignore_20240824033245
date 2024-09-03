@@ -1,8 +1,10 @@
+/.history
+
 # File: .gitignore
 # Python
 __pycache__/
 *.py[cod]
-*.class
+*$py.class
 venv/
 
 # Environment variables

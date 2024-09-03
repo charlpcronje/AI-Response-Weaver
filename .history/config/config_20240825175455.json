@@ -1,0 +1,19 @@
+{
+  "file_types": {
+    "server": {
+      "extensions": [
+        ".php",
+        ".php5",
+        ".php4",
+        ".php3",
+        ".phtml",
+        ".py",
+        ".pyc",
+        ".pyo",
+        "python", ...
+      ],
+      "regex": "^\\s*(?://|#|<!--)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*(?:-->)?$",
+      "remove_first_line": false
+    }
+  }
+}

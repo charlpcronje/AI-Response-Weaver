@@ -1,0 +1,19 @@
+{
+    "file_types": {
+        "python": {
+            "extensions": [
+                ".py"
+            ],
+            "comment_syntax": "#",
+            "regex": "^#\\s*File:\\s*(.+)$"
+        },
+        "html": {
+            "extensions": [
+                ".html",
+                ".htm"
+            ],
+            "comment_syntax": "<!--",
+            "regex": "^<!--\\s*File:\\s*(.+)\\s*-->$"
+        }
+    }
+}

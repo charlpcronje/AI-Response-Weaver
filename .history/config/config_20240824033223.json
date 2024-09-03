@@ -1,0 +1,41 @@
+// File: config/config.json
+{
+    "file_types": {
+        "python": {
+            "extensions": [
+                ".py"
+            ],
+            "comment_syntax": "#",
+            "regex": "^#\\s*File:\\s*(.+)$"
+        },
+        "javascript": {
+            "extensions": [
+                ".js"
+            ],
+            "comment_syntax": "//",
+            "regex": "^//\\s*File:\\s*(.+)$"
+        },
+        "html": {
+            "extensions": [
+                ".html",
+                ".htm"
+            ],
+            "comment_syntax": "<!--",
+            "regex": "^<!--\\s*File:\\s*(.+)\\s*-->$"
+        },
+        "css": {
+            "extensions": [
+                ".css"
+            ],
+            "comment_syntax": "/*",
+            "regex": "^/\\*\\s*File:\\s*(.+)\\s*\\*/$"
+        },
+        "markdown": {
+            "extensions": [
+                ".md"
+            ],
+            "comment_syntax": "<!--",
+            "regex": "^<!--\\s*File:\\s*(.+)\\s*-->$"
+        }
+    }
+}

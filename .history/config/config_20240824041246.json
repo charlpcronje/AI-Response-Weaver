@@ -1,0 +1,276 @@
+{
+  "file_types": {
+    "web": {
+      "extensions": [
+        ".html",
+        ".htm",
+        ".css",
+        ".scss",
+        ".sass",
+        ".less",
+        ".styl",
+        ".js",
+        ".jsx",
+        ".ts",
+        ".tsx",
+        ".vue",
+        ".svelte",
+        ".pug",
+        ".jade",
+        ".ejs",
+        ".haml",
+        ".twig",
+        ".njk",
+        ".marko",
+        ".mustache",
+        ".handlebars",
+        ".dust",
+        ".wxml",
+        ".wxss"
+      ],
+      "regex": "^\\s*(?://|#|<!--)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*(?:-->)?$",
+      "remove_first_line": false
+    },
+    "data": {
+      "extensions": [
+        ".json",
+        ".json5",
+        ".yaml",
+        ".yml",
+        ".xml",
+        ".ini",
+        ".env",
+        ".toml"
+      ],
+      "regex": "^\\s*(?://|#|<!--)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*(?:-->)?$",
+      "remove_first_line": false
+    },
+    "config": {
+      "extensions": [
+        ".editorconfig",
+        ".prettierrc",
+        ".stylelintrc",
+        ".eslintrc",
+        ".babelrc",
+        ".tsconfig.json",
+        ".jsconfig.json",
+        ".csslintrc",
+        ".npmrc",
+        ".yarnrc",
+        ".pacmanrc",
+        ".dockerfile",
+        ".dockerignore",
+        ".travis.yml",
+        ".circleci.yml",
+        ".appveyor.yml",
+        ".vimrc",
+        ".gvimrc",
+        ".zshrc",
+        ".bashrc",
+        ".inputrc",
+        ".kshrc",
+        ".tshrc"
+      ],
+      "regex": "^\\s*(?://|#|<!--)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*(?:-->)?$",
+      "remove_first_line": false
+    },
+    "map": {
+      "extensions": [
+        ".css.map",
+        ".js.map",
+        ".html.map"
+      ],
+      "regex": "^\\s*(?://|#|<!--)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*(?:-->)?$",
+      "remove_first_line": false
+    },
+    "server": {
+      "extensions": [
+        ".php",
+        ".php5",
+        ".php4",
+        ".php3",
+        ".phtml",
+        ".py",
+        ".pyc",
+        ".pyo",
+        ".rb",
+        ".rhtml",
+        ".rake",
+        ".pl",
+        ".cgi",
+        ".pm",
+        ".psgi",
+        ".pyx",
+        ".pxd",
+        ".pyi",
+        ".pyw",
+        ".groovy",
+        ".grails",
+        ".jsp",
+        ".jspf",
+        ".java",
+        ".class",
+        ".war",
+        ".jnlp",
+        ".scala",
+        ".sbt",
+        ".go",
+        ".swift",
+        ".swiftmodule",
+        ".cs",
+        ".csproj",
+        ".vb",
+        ".vbproj",
+        ".fs",
+        ".fsproj",
+        ".fsi",
+        ".fsx",
+        ".fsscript",
+        ".erl",
+        ".ex",
+        ".exs",
+        ".hrl",
+        ".hs",
+        ".hi",
+        ".lhs",
+        ".ml",
+        ".mli",
+        ".mly",
+        ".mll",
+        ".cfm",
+        ".cfc",
+        ".asp",
+        ".aspx",
+        ".ascx",
+        ".cshtml",
+        ".vbhtml",
+        ".jinja"
+      ],
+      "regex": "^\\s*(?://|#|<!--)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*(?:-->)?$",
+      "remove_first_line": false
+    },
+    "script": {
+      "extensions": [
+        ".sh",
+        ".bash",
+        ".zsh",
+        ".ksh"
+      ],
+      "regex": "^\\s*(?:#)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*$",
+      "remove_first_line": false
+    },
+    "compiled": {
+      "extensions": [
+        ".c",
+        ".cpp",
+        ".cxx",
+        ".h",
+        ".hh",
+        ".hxx",
+        ".cu",
+        ".cuh"
+      ],
+      "regex": "^\\s*(?://|/\\*)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*(?:\\*/)?$",
+      "remove_first_line": false
+    },
+    "build": {
+      "extensions": [
+        ".cmake",
+        ".makefile",
+        ".mk",
+        ".gradle",
+        ".build",
+        ".cabal",
+        ".gemspec",
+        ".lock"
+      ],
+      "regex": "^\\s*(?:#|//)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*$",
+      "remove_first_line": false
+    },
+    "database": {
+      "extensions": [
+        ".sql",
+        ".db",
+        ".sqlite",
+        ".sqlite3",
+        ".mdb",
+        ".accdb"
+      ],
+      "regex": "^\\s*(?:--|#)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*$",
+      "remove_first_line": false
+    },
+    "task": {
+      "extensions": [
+        ".rakefile",
+        ".gulpfile",
+        ".rollup",
+        ".parcelrc",
+        ".webpack"
+      ],
+      "regex": "^\\s*(?://|#)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*$",
+      "remove_first_line": false
+    },
+    "cloud": {
+      "extensions": [
+        ".aws",
+        ".gcloud",
+        ".tf",
+        ".hcl"
+      ],
+      "regex": "^\\s*(?://|#)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*$",
+      "remove_first_line": false
+    },
+    "git": {
+      "extensions": [
+        ".gitignore",
+        ".gitattributes"
+      ],
+      "regex": "^\\s*(?:#)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*$",
+      "remove_first_line": false
+    },
+    "doc": {
+      "extensions": [
+        ".readme",
+        ".license",
+        ".changelog",
+        ".contributing",
+        ".md",
+        ".markdown",
+        ".rst",
+        ".txt"
+      ],
+      "regex": "^\\s*(?://|#|<!--)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*(?:-->)?$",
+      "remove_first_line": false
+    },
+    "temp": {
+      "extensions": [
+        ".bak",
+        ".backup",
+        ".old",
+        ".tmp",
+        ".temp",
+        ".cache",
+        ".swp"
+      ],
+      "regex": "^\\s*(?://|#|<!--)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*(?:-->)?$",
+      "remove_first_line": false
+    },
+    "subtitle": {
+      "extensions": [
+        ".srt",
+        ".sub",
+        ".idx",
+        ".ass",
+        ".vtt",
+        ".lrc",
+        ".sup",
+        ".cc",
+        ".scc",
+        ".ssa",
+        ".stl"
+      ],
+      "regex": "^\\s*(?://|#|<!--)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*(?:-->)?$",
+      "remove_first_line": false
+    }
+  }
+}

@@ -1,0 +1,378 @@
+// File: config/config.json
+{
+  "file_types": {
+    "web": {
+      "extensions": [
+        ".html",
+        ".htm",
+        ".css",
+        ".scss",
+        ".sass",
+        ".less",
+        ".styl",
+        ".js",
+        ".jsx",
+        ".ts",
+        ".tsx",
+        ".vue",
+        ".svelte",
+        ".pug",
+        ".jade",
+        ".ejs",
+        ".haml",
+        ".twig",
+        ".njk",
+        ".marko",
+        ".mustache",
+        ".handlebars",
+        ".dust",
+        ".wxml",
+        ".wxss"
+      ],
+      "regex": "^\\s*(?://|#|<!--)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*(?:-->)?$"
+    },
+    "image": {
+      "extensions": [
+        ".svg",
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".gif",
+        ".bmp",
+        ".webp",
+        ".ico",
+        ".tiff",
+        ".avif"
+      ],
+      "regex": "^\\s*(?://|#|<!--)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*(?:-->)?$"
+    },
+    "audio": {
+      "extensions": [
+        ".mp3",
+        ".wav",
+        ".ogg",
+        ".m4a",
+        ".aac",
+        ".flac"
+      ],
+      "regex": "^\\s*(?://|#|<!--)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*(?:-->)?$"
+    },
+    "video": {
+      "extensions": [
+        ".mp4",
+        ".webm",
+        ".mkv",
+        ".avi",
+        ".mov",
+        ".mpeg",
+        ".mpg",
+        ".mts",
+        ".ts",
+        ".m2ts",
+        ".asf",
+        ".wmv",
+        ".rm",
+        ".rmvb",
+        ".vob",
+        ".m4v",
+        ".dv",
+        ".3gp",
+        ".3g2",
+        ".f4v",
+        ".flv"
+      ],
+      "regex": "^\\s*(?://|#|<!--)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*(?:-->)?$"
+    },
+    "font": {
+      "extensions": [
+        ".woff",
+        ".woff2",
+        ".ttf",
+        ".otf",
+        ".eot"
+      ],
+      "regex": "^\\s*(?://|#|<!--)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*(?:-->)?$"
+    },
+    "data": {
+      "extensions": [
+        ".json",
+        ".json5",
+        ".yaml",
+        ".yml",
+        ".xml",
+        ".ini",
+        ".env",
+        ".toml"
+      ],
+      "regex": "^\\s*(?://|#|<!--)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*(?:-->)?$"
+    },
+    "config": {
+      "extensions": [
+        ".editorconfig",
+        ".prettierrc",
+        ".stylelintrc",
+        ".eslintrc",
+        ".babelrc",
+        ".tsconfig.json",
+        ".jsconfig.json",
+        ".csslintrc",
+        ".npmrc",
+        ".yarnrc",
+        ".pacmanrc",
+        ".dockerfile",
+        ".dockerignore",
+        ".travis.yml",
+        ".circleci.yml",
+        ".appveyor.yml",
+        ".vimrc",
+        ".gvimrc",
+        ".zshrc",
+        ".bashrc",
+        ".inputrc",
+        ".kshrc",
+        ".tshrc"
+      ],
+      "regex": "^\\s*(?://|#|<!--)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*(?:-->)?$"
+    },
+    "map": {
+      "extensions": [
+        ".css.map",
+        ".js.map",
+        ".html.map"
+      ],
+      "regex": "^\\s*(?://|#|<!--)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*(?:-->)?$"
+    },
+    "server": {
+      "extensions": [
+        ".php",
+        ".php5",
+        ".php4",
+        ".php3",
+        ".phtml",
+        ".py",
+        ".pyc",
+        ".pyo",
+        ".rb",
+        ".rhtml",
+        ".rake",
+        ".pl",
+        ".cgi",
+        ".pm",
+        ".psgi",
+        ".pyx",
+        ".pxd",
+        ".pyi",
+        ".pyw",
+        ".groovy",
+        ".grails",
+        ".jsp",
+        ".jspf",
+        ".java",
+        ".class",
+        ".war",
+        ".jnlp",
+        ".scala",
+        ".sbt",
+        ".go",
+        ".swift",
+        ".swiftmodule",
+        ".cs",
+        ".csproj",
+        ".vb",
+        ".vbproj",
+        ".fs",
+        ".fsproj",
+        ".fsi",
+        ".fsx",
+        ".fsscript",
+        ".erl",
+        ".ex",
+        ".exs",
+        ".hrl",
+        ".hs",
+        ".hi",
+        ".lhs",
+        ".ml",
+        ".mli",
+        ".mly",
+        ".mll",
+        ".cfm",
+        ".cfc",
+        ".asp",
+        ".aspx",
+        ".ascx",
+        ".cshtml",
+        ".vbhtml",
+        ".jinja"
+      ],
+      "regex": "^\\s*(?://|#|<!--)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*(?:-->)?$"
+    },
+    "script": {
+      "extensions": [
+        ".sh",
+        ".bash",
+        ".zsh",
+        ".ksh"
+      ],
+      "regex": "^\\s*(?:#)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*$"
+    },
+    "compiled": {
+      "extensions": [
+        ".c",
+        ".cpp",
+        ".cxx",
+        ".h",
+        ".hh",
+        ".hxx",
+        ".cu",
+        ".cuh"
+      ],
+      "regex": "^\\s*(?://|/\\*)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*(?:\\*/)?$"
+    },
+    "build": {
+      "extensions": [
+        ".cmake",
+        ".makefile",
+        ".mk",
+        ".gradle",
+        ".build",
+        ".cabal",
+        ".gemspec",
+        ".lock"
+      ],
+      "regex": "^\\s*(?:#|//)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*$"
+    },
+    "database": {
+      "extensions": [
+        ".sql",
+        ".db",
+        ".sqlite",
+        ".sqlite3",
+        ".mdb",
+        ".accdb"
+      ],
+      "regex": "^\\s*(?:--|#)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*$"
+    },
+    "task": {
+      "extensions": [
+        ".rakefile",
+        ".gulpfile",
+        ".rollup",
+        ".parcelrc",
+        ".webpack"
+      ],
+      "regex": "^\\s*(?://|#)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*$"
+    },
+    "cloud": {
+      "extensions": [
+        ".aws",
+        ".gcloud",
+        ".tf",
+        ".hcl"
+      ],
+      "regex": "^\\s*(?://|#)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*$"
+    },
+    "git": {
+      "extensions": [
+        ".gitignore",
+        ".gitattributes"
+      ],
+      "regex": "^\\s*(?:#)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*$"
+    },
+    "doc": {
+      "extensions": [
+        ".readme",
+        ".license",
+        ".changelog",
+        ".contributing",
+        ".md",
+        ".markdown",
+        ".rst",
+        ".txt"
+      ],
+      "regex": "^\\s*(?://|#|<!--)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*(?:-->)?$"
+    },
+    "archive": {
+      "extensions": [
+        ".zip",
+        ".tar",
+        ".gz",
+        ".bz2",
+        ".7z",
+        ".xz",
+        ".rar"
+      ],
+      "regex": "^\\s*(?://|#|<!--)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*(?:-->)?$"
+    },
+    "package": {
+      "extensions": [
+        ".iso",
+        ".pkg",
+        ".deb",
+        ".rpm",
+        ".dmg",
+        ".app",
+        ".exe",
+        ".msi",
+        ".bin"
+      ],
+      "regex": "^\\s*(?://|#|<!--)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*(?:-->)?$"
+    },
+    "vm": {
+      "extensions": [
+        ".vhd",
+        ".ova",
+        ".ovf",
+        ".vmdk",
+        ".qcow2",
+        ".vdi",
+        ".img",
+        ".wim"
+      ],
+      "regex": "^\\s*(?://|#|<!--)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*(?:-->)?$"
+    },
+    "crypto": {
+      "extensions": [
+        ".gpg",
+        ".asc",
+        ".pem",
+        ".key",
+        ".cert",
+        ".csr",
+        ".crt",
+        ".pfx",
+        ".p12",
+        ".der"
+      ],
+      "regex": "^\\s*(?://|#|<!--)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*(?:-->)?$"
+    },
+    "temp": {
+      "extensions": [
+        ".bak",
+        ".backup",
+        ".old",
+        ".tmp",
+        ".temp",
+        ".cache",
+        ".swp"
+      ],
+      "regex": "^\\s*(?://|#|<!--)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*(?:-->)?$"
+    },
+    "subtitle": {
+      "extensions": [
+        ".srt",
+        ".sub",
+        ".idx",
+        ".ass",
+        ".vtt",
+        ".lrc",
+        ".sup",
+        ".cc",
+        ".scc",
+        ".ssa",
+        ".stl"
+      ],
+      "regex": "^\\s*(?://|#|<!--)\\s*([\\w.-]+(?:/[\\w.-]+)*\\.[\\w]+)\\s*(?:-->)?$"
+    }
+  }
+}
